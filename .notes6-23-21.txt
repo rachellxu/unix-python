@@ -1,0 +1,348 @@
+Last login: Tue Jun 22 22:29:58 on ttys000
+amyxu ~ $ cd Reputation
+-bash: cd: Reputation: No such file or directory
+amyxu ~ $ ls
+248 HW			New Unity Project	hacklab
+248 Prelim		Pictures		interview
+Adlm			Public			maya.txt
+Applications		RPGUIweb		mongodb
+Desktop			SecurityShepherd	node_modules
+Developer		VirtualBox VMs		package-lock.json
+Documents		books-ocr		random-major
+Downloads		dennis			remoting
+Library			donut-erase		xgen
+Movies			git-completion.bash
+Music			git-prompt.sh
+amyxu ~ $ cd Desktop/Reputation
+amyxu Reputation $ python
+Python 2.7.10 (default, Feb  7 2017, 00:08:15)
+[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+KeyboardInterrupt
+>>> ^D
+amyxu Reputation $ python3
+Python 3.6.5 (default, Jun 17 2018, 12:26:58)
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>>
+>>>
+>>> print("call it what you want")
+call it what you want
+>>> "call it what you want"
+'call it what you want'
+>>> "3"
+'3'
+>>> 3
+3
+>>> print("3")
+3
+>>> 3*3
+9
+>>> print("don't" + "read")
+don'tread
+>>> print("don't" + " read")
+don't read
+>>> print(30 + "songs")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> print("songs" + 30)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: must be str, not int
+>>> print("30" + " songs")
+30 songs
+>>> a = 20
+>>> print(str(a) + " songs")
+20 songs
+>>> a+ = 1
+  File "<stdin>", line 1
+    a+ = 1
+       ^
+SyntaxError: invalid syntax
+>>> a + = 1
+  File "<stdin>", line 1
+    a + = 1
+        ^
+SyntaxError: invalid syntax
+>>> a += 1
+>>> print(str(a))
+21
+>>> a = 1000
+>>> print(str(a))
+1000
+>>> a /= 10
+>>> print(str(a))
+100.0
+>>>
+>>>
+amyxu Reputation $ touch do.txt
+amyxu Reputation $ rm do.txt
+amyxu Reputation $ touch do.py
+amyxu Reputation $ open do.py
+amyxu Reputation $ open do.py
+amyxu Reputation $ more do.py
+def main():
+    print("Hello World!")
+
+if __name__ == "__main__":
+    main()
+amyxu Reputation $ python3 do.py
+Hello World!
+amyxu Reputation $ python3
+Python 3.6.5 (default, Jun 17 2018, 12:26:58)
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> 3 + 4
+7
+>>>
+amyxu Reputation $ python3 do.py
+Traceback (most recent call last):
+  File "do.py", line 4, in <module>
+    if name == "__main__":
+NameError: name 'name' is not defined
+amyxu Reputation $ python3 do.py
+__main__
+amyxu Reputation $ python3 do.py
+__main__
+100
+amyxu Reputation $ python3 do.py
+__main__
+100
+amyxu Reputation $ python3 do.py
+__main__
+100
+amyxu Reputation $ python3 do.py
+__main__
+100
+taylor swift
+amyxu Reputation $ python3 do.py
+__main__
+100
+taylor swift
+amyxu Reputation $ python3 do.py
+amyxu Reputation $ python3 do.py
+Who are you?^CTraceback (most recent call last):
+  File "do.py", line 23, in <module>
+    main()
+  File "do.py", line 3, in main
+    a = input("Who are you? :")
+KeyboardInterrupt
+amyxu Reputation $ python3 do.py
+Who are you? :rachell
+OH. Hello rachell
+amyxu Reputation $ python3 do.py
+  File "do.py", line 3
+    print("Who are you? :")
+        ^
+IndentationError: expected an indented block
+amyxu Reputation $ python3 do.py
+Who are you? :
+amyxu Reputation $ python3 do.py
+Who are you? :
+namervrvrrgrt
+amyxu Reputation $ python3 do.py
+name^[[A
+amyxu Reputation $ python3 do.py
+Who are you? :hey
+amyxu Reputation $ python3 do.py
+Who are you? :hey
+hey
+amyxu Reputation $ python3 do.py
+Who are you? :rachell
+Hellorachell
+amyxu Reputation $ python3 do.py
+Who are you? :taylor
+Hello taylor
+amyxu Reputation $ python3 do.py
+num1 :4
+num2 :8
+48
+Who are you? :me
+Hello me
+amyxu Reputation $ python3 do.py
+num1 :3
+num2 :4
+7
+Who are you? :no
+Hello no
+amyxu Reputation $ touch buzzfeed.txt
+amyxu Reputation $ open buzzfeed.txt
+amyxu Reputation $ python3 do.py
+How big is your brain?
+[type enter to start]
+amyxu Reputation $ python3 do.py
+How big is your brain?
+[type enter to start]
+Can you tell when a boy likes you?
+		a. Yes - always
+		b. No - never I am blind
+		c. Sometimes - depends if they're obvious or not
+amyxu Reputation $ python3 do.py
+How big is your brain?
+[type enter to start]
+Can you tell when a boy likes you?
+a. Yes - always
+b. No - never I am blind
+c. Sometimes - depends if they're obvious or not
+amyxu Reputation $ python3 do.py
+How big is your brain?
+[type enter to start]
+Can you tell when a boy likes you?
+	a. Yes - always
+	b. No - never I am blind
+	c. Sometimes - depends if they're obvious or not
+amyxu Reputation $ python3 do.py
+How big is your brain?
+[type enter to start]
+/nCan you tell when a boy likes you?
+	a. Yes - always
+	b. No - never I am blind
+	c. Sometimes - depends if they're obvious or not
+[type a, b, or c]a
+amyxu Reputation $ python3 do.py
+  File "do.py", line 31
+    value = input("[type a, b, or c]")
+    ^
+IndentationError: unexpected indent
+amyxu Reputation $ python3 do.py
+How big is your brain?
+[type enter to start]
+Can you tell when a boy likes you?
+	a. Yes - always
+	b. No - never I am blind
+	c. Sometimes - depends if they're obvious or not
+[type a, b, or c]a
+Can you rememember the score when you play volleyball?
+	a. Yes - easy peasy, I always no the score
+	b. No - I can never remember even when people tell me
+	c. Sometimes - depends on my mood
+[type a, b, or c]a
+Can you remember song lyrics well?
+	a. Yes - only takes me a couple listens
+	b. No - my brain small
+	c. Sometimes - if I listen enough
+[type a, b, or c]a
+amyxu Reputation $ python3
+Python 3.6.5 (default, Jun 17 2018, 12:26:58)
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> mylist = [0, 0, 0]
+>>> mylist = [3, 5, 7]
+>>> mylist[0]
+3
+>>> mylist[1]
+5
+>>> mylist[2]
+7
+>>> mylist[0] += 1
+>>> mylist
+[4, 5, 7]
+>>> mylist[0] += 1
+>>> mylist[0] += 1
+>>> mylist[0] += 1
+>>> mylist[0] += 1
+>>> mylist
+[8, 5, 7]
+>>>
+amyxu Reputation $ python3 do.py
+How big is your brain?
+[type enter to start]
+Can you tell when a boy likes you?
+	a. Yes - always
+	b. No - never I am blind
+	c. Sometimes - depends if they're obvious or not
+[type a, b, or c]a
+Can you rememember the score when you play volleyball?
+	a. Yes - easy peasy, I always no the score
+	b. No - I can never remember even when people tell me
+	c. Sometimes - depends on my mood
+[type a, b, or c]a
+Can you remember song lyrics well?
+	a. Yes - only takes me a couple listens
+	b. No - my brain small
+	c. Sometimes - if I listen enough
+[type a, b, or c]
+Choose one of the options chicken brain
+amyxu Reputation $ python3 do.py
+How big is your brain?
+[type enter to start]
+Can you tell when a boy likes you?
+	a. Yes - always
+	b. No - never I am blind
+	c. Sometimes - depends if they're obvious or not
+[type a, b, or c]a
+Can you rememember the score when you play volleyball?
+	a. Yes - easy peasy, I always no the score
+	b. No - I can never remember even when people tell me
+	c. Sometimes - depends on my mood
+[type a, b, or c]a
+Can you remember song lyrics well?
+	a. Yes - only takes me a couple listens
+	b. No - my brain small
+	c. Sometimes - if I listen enough
+[type a, b, or c]a
+[3, 0, 0]
+amyxu Reputation $ python3 do.py
+How big is your brain?
+[type enter to start]
+Can you tell when a boy likes you?
+	a. Yes - always
+	b. No - never I am blind
+	c. Sometimes - depends if they're obvious or not
+[type a, b, or c]b
+Can you rememember the score when you play volleyball?
+	a. Yes - easy peasy, I always no the score
+	b. No - I can never remember even when people tell me
+	c. Sometimes - depends on my mood
+[type a, b, or c]c
+Can you remember song lyrics well?
+	a. Yes - only takes me a couple listens
+	b. No - my brain small
+	c. Sometimes - if I listen enough
+[type a, b, or c]a
+[1, 1, 1]
+amyxu Reputation $ python3 do.py
+How big is your brain?
+[type enter to start]
+Can you tell when a boy likes you?
+	a. Yes - always
+	b. No - never I am blind
+	c. Sometimes - depends if they're obvious or not
+[type a, b, or c]b
+Can you rememember the score when you play volleyball?
+	a. Yes - easy peasy, I always no the score
+	b. No - I can never remember even when people tell me
+	c. Sometimes - depends on my mood
+[type a, b, or c]c
+Can you remember song lyrics well?
+	a. Yes - only takes me a couple listens
+	b. No - my brain small
+	c. Sometimes - if I listen enough
+[type a, b, or c]a
+Here is your result!
+[hit enter to view]
+amyxu Reputation $ python3 do.py
+How big is your brain?
+[type enter to start]
+Can you tell when a boy likes you?
+	a. Yes - always
+	b. No - never I am blind
+	c. Sometimes - depends if they're obvious or not
+[type a, b, or c]b
+Can you rememember the score when you play volleyball?
+	a. Yes - easy peasy, I always no the score
+	b. No - I can never remember even when people tell me
+	c. Sometimes - depends on my mood
+[type a, b, or c]c
+Can you remember song lyrics well?
+	a. Yes - only takes me a couple listens
+	b. No - my brain small
+	c. Sometimes - if I listen enough
+[type a, b, or c]a
+Here is your result!
+[hit enter to view]
+You got a chicken brain, haha.
